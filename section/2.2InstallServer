@@ -1,0 +1,16 @@
+1. Download the simulation server the installation script “install-roborescue.sh” at
+https://raw.githubusercontent.com/tkmnet/rcrs-scripts/master/install-roborescue.sh.
+2. Add execution permission to the script, e.g. “chmod +x install-roborescue.sh”.
+3. Run the script, e.g. “./install-roborescue.sh”. The script creates the directory named “roborescue-v1.2”
+in your current working directory.
+4. Check the message at the end of the installation. If the installation is successfully completed, you get the
+message “BUILD SUCCESSFUL”; otherwise you get “BUILD FAILED”.
+If you are using Ubuntu, the installation proceeds according to the commands below:
+Installation on Ubuntu
+$ curl -L -O https://raw.githubusercontent.com/tkmnet/rcrs-scripts/master/install-roborescue.sh
+$ chmod +x install-roborescue.sh
+$ ./install-roborescue.sh
+The following message will be appeared if the installation is successfully completed.
+Install Completion
+BUILD SUCCESSFUL
+Total time: 20 seconds
