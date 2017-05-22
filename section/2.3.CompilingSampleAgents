@@ -1,0 +1,46 @@
+2.3
+Compiling Sample Agents with Agent Development Framework (ADF)
+Download the sample agents with ADF “adf-sample.tar.gz” at
+https://github.com/RCRS-ADF/RCRS-ADF/releases/download/release/adf-sample.tar.gz.
+If you are using Ubuntu, you can get ADF with the following command:
+Download ADF on Ubuntu
+$ wget -O - https://github.com/RCRS-ADF/RCRS-ADF/releases/download/release/adf-sample.tar.gz
+| tar zxf -
+Move to “adf-sample” directory and compile the sample agents using the command
+“java -jar ./library/rescue/adf/adf-core.jar -compile”.
+You can compile the sample agents on Ubuntu as follows:
+Compiling Agents
+$ cd adf-sample
+$ java -jar ./library/rescue/adf/adf-core.jar -compile
+[ RCRS ADF Version 2.x.x (build 2016xxxxxxxxxxxx) ]
+[START ]
+[INFO ]
+[FINISH]
+[START ]
+[FINISH]
+Agent compile
+Working directory: /home/USERNAME/workspace/adf-sample
+Agent compile
+Agent class check
+Agent class check (0 warning)
+
+####　这个部分主要讲了，下载球队代码，以及编译球队代码．编译指令
+```
+cd adf-sample
+java -jar ./library/rescue/adf/adf-core.jar -compile
+```
+之后可以看到
+```
+[ RCRS ADF Version 2.x.x (build 2016xxxxxxxxxxxx) ]
+[START ]
+[INFO ]
+[FINISH]
+[START ]
+[FINISH]
+3
+Agent compile
+Working directory: /home/USERNAME/workspace/adf-sample
+Agent compile
+Agent class check
+Agent class check (0 warning)
+```
